@@ -1,4 +1,4 @@
-FROM sbs20/scanservjs:v3.0.3
+FROM sbs20/scanservjs:latest
 USER root
 
 # (опційно) bashio — якщо реально використовуєш у run.sh/config
