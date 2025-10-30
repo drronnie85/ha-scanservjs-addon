@@ -30,8 +30,3 @@ RUN chmod +x /run.sh
 
 EXPOSE 8080
 CMD ["/run.sh"]
-
-
-
-apt-get update
-apt-get install -y --no-install-recommends libusb-0.1-4 sane-utils
